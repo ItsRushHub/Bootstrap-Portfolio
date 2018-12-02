@@ -42,15 +42,8 @@ li {
     text-align: right;
     list-style-type: none;
     display: inline;
-    padding-right: 40px;
+    padding-right: 20px;
 }
-
-.navbar-nav li:not(:first-child):before {
-    content: " | ";
-    padding: 30px; 
-}
-
-
 
 
 
@@ -67,6 +60,21 @@ a:hover {
 
 /* Body Info */
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: block;
+    margin-top: 30px;
+    background-color: white;
+    width: 960px;
+    height: 400px;
+    border: 1px solid #666666;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h2 {
     font-family: 'Libre Baskerville', serif;
@@ -84,6 +92,11 @@ h2 {
     color: #777777;
 }
 
+p {
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 2;
+    }
 
 img {
     float: left;
@@ -130,6 +143,11 @@ h3 {
     width: 84%;
     margin-left: 10px;
 }
+
+
+
+
+
 
 
 
@@ -213,6 +231,10 @@ h3 {
     width: 85%;
     margin-left: 10px;
 }
+
+
+
+
 
 
 /* Contact Page */

@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Actor|Average+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Actor|Libre+Baskerville" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -17,60 +19,93 @@
 
     <!--Nav Bar -->
 
-<header class="headertop">    
-    <div class="container">
-        <div class="row">
-            <h1>ORAN RUSH</h1>
+    <header class="headertop">
+        <div class="container">
+            <div class="row">
+                <h1>ORAN RUSH</h1>
+            </div>
+
+            <nav class="navbar-nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="navbar-nav">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a></li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a></li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
 
 
+    <!-- Contact Background -->
 
-
-
-
-
-
+    <div class="content">
+            <div class="container">
     
-
-
-
-
-
-
-
-
-
-
-
-        <br>
-
-            <!-- Footer-->
-
-            <footer>
-                <div class="footer">
-                    <small>Copyright &copy; </small>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-left"> <strong>Contact</strong> </h2>
+                    </div>
+                    <br>
+                    <br>
+                    <hr width=95%>
+                    <br>
                 </div>
-            </footer>
+            </div>
+
+
+    <!-- Contact Form Info -->
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="form-group row">
+                <label for="name" class="col-lg">Name</label>
+                <input type="text" class="form-control" id="name" name="Name" placeholder="John Doe">
+            </div>
+                    
+            <div class="form-group row">
+                <label for="name" class="col-lg">Email</label>
+                <input type="text" class="form-control" name="Email" placeholder="example@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" rows="6" id="name" name="message" style="height:100px"></textarea>
+            </div>
+
+        </form>
+    </div>
 
 
 
 
 
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer-->
+
+    <footer>
+        <div class="footer">
+            <small>Copyright &copy; </small>
+        </div>
+    </footer>
 </body>
 </html>
